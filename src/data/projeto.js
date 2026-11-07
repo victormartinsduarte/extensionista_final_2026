@@ -38,3 +38,9 @@ export const faq = [
       'É um formulário online, simples e de participação voluntária. Os detalhes estão na página da pesquisa.',
   },
 ]
+
+export const pesquisa = {
+  // Cole aqui o link do formulário no formato:
+  // https://docs.google.com/forms/d/e/XXXXXXXX/viewform
+  urlFormulario: 'https://docs.google.com/forms/d/e/1FAIpQLSfNPS0Tqy8a41F9uqADg5Gjw3xDLpjS5yvZ0MYOa0lkTtArwg/viewform',
+}

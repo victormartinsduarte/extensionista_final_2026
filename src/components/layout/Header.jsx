@@ -1,4 +1,5 @@
 import { NavLink } from 'react-router-dom'
+import { projeto } from '../../data/projeto.js'
 
 const links = [
   { to: '/', texto: 'Início' },
@@ -10,7 +11,7 @@ export default function Header() {
   return (
     <header className="header">
       <div className="header__conteudo">
-        <span className="header__logo">Tecnologia para Todos</span>
+        <span className="header__logo">{projeto.nome}</span>
         <nav className="header__nav" aria-label="Navegação principal">
           {links.map((link) => (
             <NavLink
