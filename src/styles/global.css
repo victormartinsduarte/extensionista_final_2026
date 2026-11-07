@@ -79,3 +79,41 @@ body {
   border-top: 1px solid var(--cor-borda);
   font-size: 0.9rem;
 }
+
+/* Botões */
+.botao {
+  display: inline-block;
+  padding: 0.7rem 1.25rem;
+  border: 1px solid transparent;
+  border-radius: var(--raio);
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.botao--primario {
+  background: var(--cor-primaria);
+  color: #fff;
+}
+
+.botao--primario:hover {
+  background: var(--cor-primaria-escura);
+}
+
+.botao--secundario {
+  background: #fff;
+  border-color: var(--cor-borda);
+  color: var(--cor-texto);
+}
+
+.botao--secundario:hover {
+  background: var(--cor-borda);
+}
+
+.botao--claro {
+  background: #fff;
+  color: var(--cor-primaria-escura);
+}
+
+.botao--claro:hover {
+  background: var(--cor-borda);
+}
