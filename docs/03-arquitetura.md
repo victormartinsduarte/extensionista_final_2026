@@ -25,7 +25,8 @@ flowchart TD
 | `components` | Peças reutilizáveis de interface |
 | `services` | Único ponto de acesso aos dados; regras de busca e validação |
 | `data` | Conteúdo (aulas, textos do projeto, link do formulário) |
-| `styles` | Estilos globais e por página |
+| `components/ui` | Peças genéricas reutilizáveis (botão, seção) |
+| `styles` | Tema do site (cores) e importação do Tailwind |
 
 ## 3. Tecnologias
 | Item | Escolha |
@@ -36,7 +37,7 @@ flowchart TD
 | Testes | Vitest |
 | Versionamento | Git e GitHub |
 | CI/CD e hospedagem | GitHub Actions e GitHub Pages |
-| Estilo (planejado) | Tailwind CSS |
+| Estilo | Tailwind CSS (v4, via plugin do Vite) |
 
 ## 4. Decisões arquiteturais
 | ID | Decisão | Motivo |
@@ -49,6 +50,7 @@ flowchart TD
 | AD06 | Vídeo via `youtube-nocookie.com` | Reduz o uso de cookies de terceiros |
 | AD07 | Forms incorporado com link alternativo | Mantém o visitante no site, com alternativa para celulares ou falhas |
 | AD08 | Deploy por GitHub Actions com testes | Publicação automática e protegida por testes |
+| AD09 | Tailwind CSS com componentes reutilizáveis | Estilo consistente e minimalista, sem arquivos CSS por página; as classes repetidas ficam concentradas em componentes (`Botao`, `Secao`) e as cores em um único bloco de tema |
 
 ## 5. Fluxo de entrega
 

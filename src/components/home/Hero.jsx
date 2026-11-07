@@ -1,21 +1,23 @@
-import { Link } from 'react-router-dom'
+import Botao from '../ui/Botao.jsx'
 
 export default function Hero() {
   return (
-    <section className="hero">
-      <p className="hero__etiqueta">Atividade extensionista</p>
-      <h1 className="hero__titulo">Aprender a programar é para todos.</h1>
-      <p className="hero__subtitulo">
+    <section className="max-w-3xl py-12 sm:py-20">
+      <p className="mb-3 text-sm font-semibold uppercase tracking-wider text-primary">
+        Atividade Extensionista
+      </p>
+      <h1 className="text-balance text-4xl font-bold tracking-tight sm:text-6xl">
+        Aprender a programar é para todos.
+      </h1>
+      <p className="mt-5 max-w-2xl text-lg text-slate-600 sm:text-xl">
         Aulas gratuitas, em linguagem simples, para quem está dando o primeiro
         passo no mundo da programação.
       </p>
-      <div className="hero__acoes">
-        <Link to="/aulas" className="botao botao--primario">
-          Começar a aprender
-        </Link>
-        <Link to="/pesquisa" className="botao botao--secundario">
+      <div className="mt-8 flex flex-wrap gap-3">
+        <Botao to="/aulas">Começar a aprender</Botao>
+        <Botao to="/pesquisa" variante="secundario">
           Participar da pesquisa
-        </Link>
+        </Botao>
       </div>
     </section>
   )

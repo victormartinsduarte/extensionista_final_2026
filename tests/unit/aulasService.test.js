@@ -3,7 +3,11 @@ import {
   getTopicos,
   getPrimeiraAula,
   getAulaPorId,
+  getAulaAnterior,
+  getProximaAula,
 } from '../../src/services/aulasService.js'
+
+const todas = getTopicos().flatMap((topico) => topico.aulas)
 
 describe('aulasService', () => {
   it('retorna a lista de tópicos', () => {
@@ -25,5 +29,32 @@ describe('aulasService', () => {
 
   it('retorna null para um id que não existe', () => {
     expect(getAulaPorId('id-que-nao-existe')).toBeNull()
+  })
+})
+
+describe('navegação entre aulas', () => {
+  it('a primeira aula não tem aula anterior', () => {
+    expect(getAulaAnterior(todas[0].id)).toBeNull()
+  })
+
+  it('a última aula não tem próxima aula', () => {
+    expect(getProximaAula(todas[todas.length - 1].id)).toBeNull()
+  })
+
+  it('a próxima aula segue a ordem do menu, inclusive entre tópicos', () => {
+    for (let i = 0; i < todas.length - 1; i++) {
+      expect(getProximaAula(todas[i].id).id).toBe(todas[i + 1].id)
+    }
+  })
+
+  it('a aula anterior segue a ordem inversa do menu', () => {
+    for (let i = 1; i < todas.length; i++) {
+      expect(getAulaAnterior(todas[i].id).id).toBe(todas[i - 1].id)
+    }
+  })
+
+  it('retorna null para anterior e próxima de um id inexistente', () => {
+    expect(getAulaAnterior('id-que-nao-existe')).toBeNull()
+    expect(getProximaAula('id-que-nao-existe')).toBeNull()
   })
 })

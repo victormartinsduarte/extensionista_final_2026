@@ -28,6 +28,10 @@
 | CT11 | RF09 | Formulário embutido | Formulário carrega e pode ser respondido | Manual |
 | CT12 | RNF02 | Responsividade | Sem rolagem horizontal em celular | Manual |
 | CT13 | RNF03 | Teclado | Navegação completa via Tab/Enter | Manual |
+| CT14 | RF13 | Primeira aula sem anterior | Retorna nulo | Unitário |
+| CT15 | RF13 | Última aula sem próxima | Retorna nulo | Unitário |
+| CT16 | RF13, RN05 | Ordem entre tópicos | Próxima/anterior seguem a ordem do menu | Unitário |
+| CT17 | RF13 | Atalhos na interface | Os botões levam à aula certa e a página volta ao topo | Manual |
 
 ## 4. Registro de execução
 | Data | Versão | Responsável | Resultado | Observações |

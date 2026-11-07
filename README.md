@@ -8,11 +8,11 @@ Engenharia de Software — [UNINTER].
 
 ## Funcionalidades
 - Página inicial com apresentação do projeto
-- Aulas em vídeo (YouTube) com resumo e menu lateral por tópicos
+- Aulas em vídeo (YouTube) com resumo, menu lateral por tópicos e navegação entre aula anterior e próxima
 - Página de pesquisa com Google Forms incorporado
 
 ## Tecnologias
-React · Vite · React Router · Vitest · GitHub Actions · GitHub Pages
+React · Vite · React Router · Tailwind CSS · Vitest · GitHub Actions · GitHub Pages
 
 ## Como rodar localmente
 ```bash
