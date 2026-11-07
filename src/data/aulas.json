@@ -1,0 +1,40 @@
+{
+  "topicos": [
+    {
+      "id": "introducao",
+      "titulo": "Introdução à Programação",
+      "aulas": [
+        {
+          "id": "o-que-e-programar",
+          "titulo": "O que é programar?",
+          "videoId": "jNQXAC9IVRw",
+          "resumo": "Neste primeiro encontro vamos entender o que é programar e como os programas estão presentes no nosso dia a dia.\n\nVocê não precisa de nenhum conhecimento prévio para começar."
+        },
+        {
+          "id": "o-que-e-algoritmo",
+          "titulo": "O que é um algoritmo?",
+          "videoId": "jNQXAC9IVRw",
+          "resumo": "Um algoritmo é uma sequência de passos para resolver um problema, como uma receita de bolo."
+        }
+      ]
+    },
+    {
+      "id": "logica",
+      "titulo": "Lógica de Programação",
+      "aulas": [
+        {
+          "id": "variaveis",
+          "titulo": "Variáveis",
+          "videoId": "jNQXAC9IVRw",
+          "resumo": "Variáveis são espaços na memória onde guardamos informações para usar depois."
+        },
+        {
+          "id": "condicoes",
+          "titulo": "Condições (se / senão)",
+          "videoId": "jNQXAC9IVRw",
+          "resumo": "Com condições, o programa toma decisões diferentes dependendo da situação."
+        }
+      ]
+    }
+  ]
+}
