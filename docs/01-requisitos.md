@@ -34,6 +34,7 @@ corrigidos automaticamente, banco de dados e back-end próprio.
 | RF10 | Se o formulário não estiver configurado, a página deve exibir um aviso de indisponibilidade. |
 | RF11 | Um menu de navegação deve estar visível em todas as páginas. |
 | RF12 | Em telas pequenas, o menu lateral de aulas deve poder ser aberto e fechado por um botão. |
+| RF13 | Ao final de cada aula, o sistema deve exibir atalhos para a aula anterior e a próxima, seguindo a ordem do menu (inclusive entre tópicos). Na primeira aula não há anterior, e na última não há próxima. |
 
 ## 5. Requisitos não funcionais
 | ID | Categoria | Requisito |
@@ -51,6 +52,7 @@ corrigidos automaticamente, banco de dados e back-end próprio.
 - RN02: cada aula contém exatamente um vídeo e um resumo.
 - RN03: tópicos servem apenas para agrupar aulas e não possuem página própria.
 - RN04: a participação na pesquisa é voluntária.
+- RN05: a ordem das aulas é a ordem em que aparecem no arquivo de conteúdo.
 
 ## 7. Premissas e restrições
 - Os vídeos são hospedados no YouTube.

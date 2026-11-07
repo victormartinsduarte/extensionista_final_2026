@@ -17,3 +17,19 @@ export function getAulaPorId(id) {
   }
   return null
 }
+
+function listarAulas() {
+  return dados.topicos.flatMap((topico) => topico.aulas)
+}
+
+export function getAulaAnterior(id) {
+  const aulas = listarAulas()
+  const indice = aulas.findIndex((aula) => aula.id === id)
+  return indice > 0 ? aulas[indice - 1] : null
+}
+
+export function getProximaAula(id) {
+  const aulas = listarAulas()
+  const indice = aulas.findIndex((aula) => aula.id === id)
+  return indice !== -1 && indice < aulas.length - 1 ? aulas[indice + 1] : null
+}

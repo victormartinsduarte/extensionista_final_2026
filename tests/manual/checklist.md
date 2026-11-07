@@ -20,6 +20,9 @@ Data: ____ | Testador: ____ | Dispositivo/navegador: ____
 - [ ] O vídeo toca e a tela cheia funciona
 - [ ] Um endereço de aula inexistente mostra a mensagem de erro
 - [ ] Atualizar a página (F5) mantém a mesma aula
+- [ ] Os botões "Aula anterior" e "Próxima aula" levam à aula certa, inclusive entre tópicos
+- [ ] Na primeira aula não há "anterior", e na última não há "próxima"
+- [ ] Ao trocar de aula, a página volta ao topo
 
 ## Pesquisa
 - [ ] O formulário aparece embutido e é possível respondê-lo

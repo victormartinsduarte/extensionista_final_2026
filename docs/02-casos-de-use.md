@@ -39,6 +39,7 @@ flowchart LR
 - **Ator:** Visitante
 - **Fluxo principal:** o visitante clica em uma aula no menu lateral; o sistema atualiza o endereço, o vídeo e o resumo.
 - **Variação (celular):** o visitante abre o menu pelo botão, escolhe a aula e o menu se fecha.
+- **Fluxo alternativo:** ao final da aula, o visitante usa os atalhos "Aula anterior" ou "Próxima aula"; o sistema abre a aula correspondente e volta ao topo da página.
 
 ### UC04 — Participar da pesquisa
 - **Ator:** Visitante
