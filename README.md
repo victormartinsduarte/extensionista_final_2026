@@ -1,16 +1,48 @@
-# React + Vite
+# Programação para Todos
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Site com videoaulas introdutórias de programação para pessoas de baixa renda,
+com uma pesquisa para avaliar a iniciativa. Trabalho de conclusão do curso de
+Engenharia de Software — [UNINTER].
 
-Currently, two official plugins are available:
+**Site:** https://SEU-USUARIO.github.io/NOME-DO-REPO/
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Funcionalidades
+- Página inicial com apresentação do projeto
+- Aulas em vídeo (YouTube) com resumo e menu lateral por tópicos
+- Página de pesquisa com Google Forms incorporado
 
-## React Compiler
+## Tecnologias
+React · Vite · React Router · Vitest · GitHub Actions · GitHub Pages
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Como rodar localmente
+```bash
+npm install
+npm run dev
+```
+Outros comandos: `npm test` (testes), `npm run build` (versão de produção).
 
-## Expanding the ESLint configuration
+## Como adicionar uma aula
+Edite `src/data/aulas.json`, incluindo a aula em um tópico existente (ou um
+novo tópico). Cada aula precisa de `id` único, `titulo`, `videoId` (código do
+YouTube) e `resumo`. Rode `npm test` para validar.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Como configurar a pesquisa
+Cole o link do Google Forms (formato `docs.google.com/forms/.../viewform`) em
+`pesquisa.urlFormulario`, no arquivo `src/data/projeto.js`.
+
+## Estrutura
+```
+docs/      documentação (requisitos, casos de uso, arquitetura, testes)
+src/       código da aplicação
+tests/     testes unitários e checklist manual
+.github/   deploy automático
+```
+
+## Documentação
+- [Requisitos](docs/01-requisitos.md)
+- [Casos de uso](docs/02-casos-de-uso.md)
+- [Arquitetura](docs/03-arquitetura.md)
+- [Plano de testes](docs/04-plano-de-testes.md)
+
+## Equipe
+Victor Duarte e Guilherme Duarte · Orientação: [orientador]
