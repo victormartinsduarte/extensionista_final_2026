@@ -45,7 +45,7 @@ corrigidos automaticamente, banco de dados e back-end próprio.
 | RNF04 | Custo | O projeto deve ser hospedado e mantido sem custo. |
 | RNF05 | Manutenibilidade | Conteúdo das aulas e textos institucionais devem ficar em arquivos de dados, separados do código de interface. |
 | RNF06 | Compatibilidade | Funcionar nas versões atuais dos principais navegadores. |
-| RNF07 | Privacidade | O site não coleta dados próprios dos visitantes; os dados da pesquisa são coletados apenas pelo Google Forms, com consentimento. |
+| RNF07 | Privacidade | O site não coleta dados próprios dos visitantes; os dados da pesquisa são coletados apenas pelo Google Forms, de forma voluntária. |
 
 ## 6. Regras de negócio
 - RN01: cada aula possui um identificador único.
