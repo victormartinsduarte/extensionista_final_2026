@@ -13,15 +13,18 @@ export default function Home() {
       <Secao titulo="Por que este projeto existe">
         <div className="max-w-prose space-y-4 text-slate-600">
           <p>
-            Programar é uma habilidade cada vez mais presente no mercado de
-            trabalho, mas o acesso ao ensino de tecnologia ainda não é igual
-            para todos. Este projeto nasce para reduzir essa distância,
-            oferecendo aulas gratuitas, curtas e em linguagem simples para quem
-            está começando do zero.
+            O conhecimento de áreas da Tecnologia da Informação (TI) 
+            é uma habilidade cada vez mais presente no mercado de trabalho, 
+            porém muitas pessoas ainda não sabem como fazer para adentrar 
+            esse universo. Este projeto nasce para ajudar a destruir essas barreiras
+            e facilitar o acesso a esse conhecimento, oferecendo aulas gratuitas, 
+            curtas e em linguagem simples para quem está começando do zero.
           </p>
           <p>
-            Ele também é um trabalho de pesquisa: queremos entender se esse
-            projeto realmente impacta e ajuda quem está começando. 
+            Este projeto é um trabalho de pesquisa da faculdade: 
+            precisamos saber se ele realmente impacta e ajuda a 
+            quem está começando, por isso não esqueçam de preencher 
+            o formulário após assistirem as aulas. Obrigado!  
           </p>
         </div>
       </Secao>
@@ -54,7 +57,7 @@ export default function Home() {
         </p>
         <div className="mt-6">
           <Botao to="/pesquisa" variante="claro">
-            Conhecer a pesquisa
+            Responda o fomulário
           </Botao>
         </div>
       </section>
