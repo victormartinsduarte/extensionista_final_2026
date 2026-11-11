@@ -51,6 +51,7 @@ flowchart TD
 | AD07 | Forms incorporado com link alternativo | Mantém o visitante no site, com alternativa para celulares ou falhas |
 | AD08 | Deploy por GitHub Actions com testes | Publicação automática e protegida por testes |
 | AD09 | Tailwind CSS com componentes reutilizáveis | Estilo consistente e minimalista, sem arquivos CSS por página; as classes repetidas ficam concentradas em componentes (`Botao`, `Secao`) e as cores em um único bloco de tema |
+| AD10 | Conteúdo das aulas em arquivos Markdown, para facilitar a edição por quem não programa e permitir imagens e formatação |
 
 ## 5. Fluxo de entrega
 

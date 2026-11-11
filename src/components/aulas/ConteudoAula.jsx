@@ -1,7 +1,17 @@
+import Markdown from 'react-markdown'
 import PlayerVideo from './PlayerVideo.jsx'
 
+const componentes = {
+  img: ({ src, alt }) => <img src={src} alt={alt ?? ''} loading="lazy" />,
+  a: ({ href, children }) => (
+    <a href={href} target="_blank" rel="noopener noreferrer">
+      {children}
+    </a>
+  ),
+}
+
 export default function ConteudoAula({ aula }) {
-  const paragrafos = aula.resumo.split('\n\n')
+  const temVideo = Boolean(aula.videoId)
 
   return (
     <article>
@@ -10,14 +20,12 @@ export default function ConteudoAula({ aula }) {
         {aula.titulo}
       </h1>
 
-      <PlayerVideo videoId={aula.videoId} titulo={aula.titulo} />
+      {temVideo && <PlayerVideo videoId={aula.videoId} titulo={aula.titulo} />}
 
-      <div className="mt-8">
-        <h2 className="mb-3 text-lg font-semibold">Resumo</h2>
-        <div className="max-w-prose space-y-4 leading-relaxed text-slate-600">
-          {paragrafos.map((texto, i) => (
-            <p key={i}>{texto}</p>
-          ))}
+      <div className={temVideo ? 'mt-8' : ''}>
+        {temVideo && <h2 className="mb-3 text-lg font-semibold">Resumo</h2>}
+        <div className="prose prose-slate prose-a:text-primary prose-img:rounded-xl">
+          <Markdown components={componentes}>{aula.conteudo}</Markdown>
         </div>
       </div>
     </article>

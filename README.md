@@ -22,9 +22,8 @@ npm run dev
 Outros comandos: `npm test` (testes), `npm run build` (versão de produção).
 
 ## Como adicionar uma aula
-Edite `src/data/aulas.json`, incluindo a aula em um tópico existente (ou um
-novo tópico). Cada aula precisa de `id` único, `titulo`, `videoId` (código do
-YouTube) e `resumo`. Rode `npm test` para validar.
+Inclua a aula no `src/data/aulas.json`. Cada aula precisa de `id` único, `titulo`, e se houver `videoId` (código do
+YouTube), então crie o arquivo `src/content/aulas/<id>.md`. Rode `npm test` para validar.
 
 ## Como configurar a pesquisa
 Cole o link do Google Forms (formato `docs.google.com/forms/.../viewform`) em

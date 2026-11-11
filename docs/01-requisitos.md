@@ -24,9 +24,9 @@ corrigidos automaticamente, banco de dados e back-end próprio.
 |---|---|
 | RF01 | A página inicial deve apresentar o projeto (motivação, público, perguntas frequentes e informações do trabalho). |
 | RF02 | A página inicial deve ter botões de acesso às aulas e à pesquisa. |
-| RF03 | A página inicial deve listar os tópicos de aula, gerados a partir do arquivo de conteúdo, levando à primeira aula de cada um. |
+| RF03 | A página inicial deve listar as aulas, geradas a partir do arquivo de conteúdo, levando a cada aula. |
 | RF04 | A página de aulas deve ter um menu lateral com os tópicos (agrupadores) e as aulas de cada tópico. |
-| RF05 | Ao selecionar uma aula, o sistema deve exibir o vídeo do YouTube incorporado e, abaixo dele, o resumo do conteúdo. |
+| RF05 | Ao selecionar uma aula, o sistema deve exibir o conteúdo (texto e imagens) e, quando houver, o vídeo do YouTube incorporado. |
 | RF06 | Cada aula deve ter um endereço próprio, que possa ser compartilhado. |
 | RF07 | Ao acessar a página de aulas sem escolher uma aula, o sistema deve abrir a primeira aula. |
 | RF08 | Ao acessar uma aula inexistente, o sistema deve exibir uma mensagem informativa. |
@@ -45,11 +45,11 @@ corrigidos automaticamente, banco de dados e back-end próprio.
 | RNF04 | Custo | O projeto deve ser hospedado e mantido sem custo. |
 | RNF05 | Manutenibilidade | Conteúdo das aulas e textos institucionais devem ficar em arquivos de dados, separados do código de interface. |
 | RNF06 | Compatibilidade | Funcionar nas versões atuais dos principais navegadores. |
-| RNF07 | Privacidade | O site não coleta dados próprios dos visitantes; os dados da pesquisa são coletados apenas pelo Google Forms, de forma voluntária. |
+| RNF07 | Privacidade | O site não coleta dados próprios dos visitantes; a pesquisa coleta, via Google Forms, primeiro nome, faixa etária e localidade, de forma voluntária e para fins acadêmicos.|
 
 ## 6. Regras de negócio
 - RN01: cada aula possui um identificador único.
-- RN02: cada aula contém exatamente um vídeo e um resumo.
+- RN02: cada aula possui um conteúdo em texto e, opcionalmente, um vídeo.
 - RN03: tópicos servem apenas para agrupar aulas e não possuem página própria.
 - RN04: a participação na pesquisa é voluntária.
 - RN05: a ordem das aulas é a ordem em que aparecem no arquivo de conteúdo.

@@ -1,39 +1,14 @@
 {
   "topicos": [
     {
-      "id": "introducao",
-      "titulo": "Introdução à Programação",
+      "id": "aulas",
+      "titulo": "Aulas",
       "aulas": [
-        {
-          "id": "o-que-e-programar",
-          "titulo": "O que é programar?",
-          "videoId": "jNQXAC9IVRw",
-          "resumo": "Neste primeiro encontro vamos entender o que é programar e como os programas estão presentes no nosso dia a dia.\n\nVocê não precisa de nenhum conhecimento prévio para começar."
-        },
-        {
-          "id": "o-que-e-algoritmo",
-          "titulo": "O que é um algoritmo?",
-          "videoId": "7Scn_V3gW6M",
-          "resumo": "Um algoritmo é uma sequência de passos para resolver um problema, como uma receita de bolo."
-        }
-      ]
-    },
-    {
-      "id": "logica",
-      "titulo": "Lógica de Programação",
-      "aulas": [
-        {
-          "id": "variaveis",
-          "titulo": "Variáveis",
-          "videoId": "7Scn_V3gW6M",
-          "resumo": "Variáveis são espaços na memória onde guardamos informações para usar depois."
-        },
-        {
-          "id": "condicoes",
-          "titulo": "Condições (se / senão)",
-          "videoId": "jNQXAC9IVRw",
-          "resumo": "Com condições, o programa toma decisões diferentes dependendo da situação."
-        }
+        { "id": "introducao", "titulo": "Introdução", "videoId": "jNQXAC9IVRw" },
+        { "id": "areas-da-ti", "titulo": "Áreas da TI", "videoId": "jNQXAC9IVRw" },
+        { "id": "mercado-de-trabalho", "titulo": "Mercado de Trabalho", "videoId": "jNQXAC9IVRw" },
+        { "id": "programacao-e-logica", "titulo": "Programação e Lógica de Programação" },
+        { "id": "onde-buscar-mais-conhecimento", "titulo": "Onde Buscar Mais Conhecimento", "videoId": "jNQXAC9IVRw" }
       ]
     }
   ]
