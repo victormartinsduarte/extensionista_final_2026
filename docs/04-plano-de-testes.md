@@ -20,7 +20,7 @@
 | CT03 | RF05 | Buscar aula por id | Retorna a aula com o nome do tópico | Unitário |
 | CT04 | RF08 | Buscar id inexistente | Retorna nulo | Unitário |
 | CT05 | RN01 | Ids de aula únicos | Não há ids repetidos | Unitário |
-| CT06 | RN02 | Aula completa | Toda aula tem título, vídeo e resumo | Unitário |
+| CT06 | RN02 | Aula completa | Toda aula tem título, vídeo e conteúdo | Unitário |
 | CT07 | RF10 | Formulário não configurado | Considerado indisponível | Unitário |
 | CT08 | RF09 | Montar URL de incorporação | Acrescenta `embedded=true` | Unitário |
 | CT09 | RF04, RF06 | Menu e URL da aula | Clicar na aula troca conteúdo e endereço | Manual |

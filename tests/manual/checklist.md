@@ -15,7 +15,7 @@ Data: ____ | Testador: ____ | Dispositivo/navegador: ____
 
 ## Aulas
 - [ ] Ao entrar em Aulas, a primeira aula abre sozinha
-- [ ] Clicar em uma aula troca vídeo, título e resumo
+- [ ] Clicar em uma aula troca vídeo, título e conteúdo
 - [ ] A aula atual fica destacada no menu lateral
 - [ ] O vídeo toca e a tela cheia funciona
 - [ ] Um endereço de aula inexistente mostra a mensagem de erro

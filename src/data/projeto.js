@@ -3,7 +3,6 @@ export const projeto = {
   curso: 'Engenharia de Software',
   instituicao: 'UNINTER',
   integrantes: ['Victor Duarte', 'Guilherme Duarte'],
-  orientador: 'Nome do orientador',
 }
 
 export const garantias = [
@@ -29,7 +28,7 @@ export const faq = [
     id: 'computador',
     pergunta: 'Preciso de um computador?',
     resposta:
-      'Você pode assistir às aulas e ler os resumos pelo celular. Para praticar, um computador ajuda, mas é possível começar só assistindo.',
+      'Você pode assistir às aulas e ler os conteúdos pelo celular. Para praticar, um computador ajuda, mas é possível começar só assistindo.',
   },
   {
     id: 'pesquisa',

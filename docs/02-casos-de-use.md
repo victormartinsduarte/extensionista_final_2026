@@ -31,13 +31,13 @@ flowchart LR
 - **Fluxo principal:**
   1. O visitante acessa a página de aulas.
   2. O sistema abre a primeira aula.
-  3. O visitante assiste ao vídeo e lê o resumo.
+  3. O visitante assiste ao vídeo e lê o conteúdo.
 - **Fluxo alternativo:** se o visitante acessa o endereço de uma aula que não existe, o sistema exibe uma mensagem e mantém o menu disponível.
 - **Pós-condição:** a aula escolhida fica destacada no menu.
 
 ### UC03 — Navegar entre aulas
 - **Ator:** Visitante
-- **Fluxo principal:** o visitante clica em uma aula no menu lateral; o sistema atualiza o endereço, o vídeo e o resumo.
+- **Fluxo principal:** o visitante clica em uma aula no menu lateral; o sistema atualiza o endereço, o vídeo e o conteúdo.
 - **Variação (celular):** o visitante abre o menu pelo botão, escolhe a aula e o menu se fecha.
 - **Fluxo alternativo:** ao final da aula, o visitante usa os atalhos "Aula anterior" ou "Próxima aula"; o sistema abre a aula correspondente e volta ao topo da página.
 
@@ -69,5 +69,5 @@ sequenceDiagram
   P->>S: getAulaPorId(id)
   S-->>P: aula
   P->>Y: carrega vídeo incorporado
-  P-->>V: vídeo + resumo
+  P-->>V: vídeo + conteúdo
 ```

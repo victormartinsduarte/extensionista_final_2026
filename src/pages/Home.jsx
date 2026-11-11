@@ -21,7 +21,7 @@ export default function Home() {
           </p>
           <p>
             Ele também é um trabalho de pesquisa: queremos entender se esse
-            formato realmente ajuda quem está aprendendo.
+            projeto realmente impacta e ajuda quem está começando. 
           </p>
         </div>
       </Secao>
@@ -49,7 +49,7 @@ export default function Home() {
           Ajude a melhorar este projeto
         </h2>
         <p className="mt-3 max-w-prose text-primary-soft">
-          Sua opinião ajuda a avaliar e a aprimorar as aulas. Participe da
+          Sua opinião nos ajuda a avaliar e aprimorar. Participe da
           nossa pesquisa.
         </p>
         <div className="mt-6">
@@ -64,7 +64,7 @@ export default function Home() {
       <Secao titulo="Sobre o projeto">
         <div className="max-w-prose space-y-4 text-slate-600">
           <p>
-            {projeto.nome} é um trabalho de conclusão do curso de{' '}
+            {projeto.nome} é um projeto extensionista do curso de{' '}
             {projeto.curso} da {projeto.instituicao}.
           </p>
           <p>
@@ -72,11 +72,6 @@ export default function Home() {
               Integrantes:
             </strong>{' '}
             {projeto.integrantes.join(', ')}
-            <br />
-            <strong className="font-semibold text-slate-900">
-              Orientação:
-            </strong>{' '}
-            {projeto.orientador}
           </p>
         </div>
       </Secao>

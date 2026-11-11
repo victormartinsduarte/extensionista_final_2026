@@ -4,11 +4,11 @@
       "id": "aulas",
       "titulo": "Aulas",
       "aulas": [
-        { "id": "introducao", "titulo": "Introdução", "videoId": "jNQXAC9IVRw" },
-        { "id": "areas-da-ti", "titulo": "Áreas da TI", "videoId": "jNQXAC9IVRw" },
-        { "id": "mercado-de-trabalho", "titulo": "Mercado de Trabalho", "videoId": "jNQXAC9IVRw" },
+        { "id": "introducao", "titulo": "Introdução", "videoId": "ZhZSwrMQ3Kw" },
+        { "id": "areas-da-ti", "titulo": "Áreas da TI", "videoId": "Mdu9IbIf3_c" },
+        { "id": "mercado-de-trabalho", "titulo": "Mercado de Trabalho", "videoId": "XM8YXOVr5o4" },
         { "id": "programacao-e-logica", "titulo": "Programação e Lógica de Programação" },
-        { "id": "onde-buscar-mais-conhecimento", "titulo": "Onde Buscar Mais Conhecimento", "videoId": "jNQXAC9IVRw" }
+        { "id": "onde-buscar-mais-conhecimento", "titulo": "Onde Buscar Mais Conhecimento", "videoId": "CI5uVXiNmDM" }
       ]
     }
   ]

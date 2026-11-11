@@ -9,18 +9,18 @@ const blocos = [
     id: 'objetivo',
     titulo: 'Objetivo',
     texto:
-      'Entender se as aulas ajudam quem está começando a aprender programação e o que pode ser melhorado.',
+      'Entender se as aulas ajudam quem está começando a aprender sobre tecnologia e o que pode ser melhorado.',
   },
   {
     id: 'participantes',
     titulo: 'Quem pode participar',
-    texto: 'Pessoas que assistiram a pelo menos uma aula do site.',
+    texto: 'Pessoas que assistiram, ou leram, a pelo menos uma aula do site.',
   },
   {
     id: 'dados',
     titulo: 'Sobre os seus dados',
     texto:
-      'A participação é voluntária e as respostas serão usadas apenas para fins acadêmicos deste trabalho.',
+      'A participação é voluntária e as respostas serão usadas apenas para fins acadêmicos deste projeto.',
   },
 ]
 
@@ -31,8 +31,8 @@ export default function Pesquisa() {
         Pesquisa
       </h1>
       <p className="mt-4 max-w-prose text-lg text-slate-600">
-        Esta pesquisa faz parte do nosso trabalho de conclusão de curso e nos
-        ajuda a entender como melhorar as aulas.
+        Esta pesquisa faz parte do nosso projeto extensionista da faculdade, e nos
+        ajuda a entender como melhorar.
       </p>
 
       <div className="mt-8 grid gap-4 md:grid-cols-3">

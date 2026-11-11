@@ -8,7 +8,7 @@ Engenharia de Software — [UNINTER].
 
 ## Funcionalidades
 - Página inicial com apresentação do projeto
-- Aulas em vídeo (YouTube) com resumo, menu lateral por tópicos e navegação entre aula anterior e próxima
+- Aulas em vídeo (YouTube) com conteúdo, menu lateral por tópicos e navegação entre aula anterior e próxima
 - Página de pesquisa com Google Forms incorporado
 
 ## Tecnologias
@@ -44,4 +44,4 @@ tests/     testes unitários e checklist manual
 - [Plano de testes](docs/04-plano-de-testes.md)
 
 ## Equipe
-Victor Duarte e Guilherme Duarte · Orientação: [orientador]
+Victor Duarte e Guilherme Duarte

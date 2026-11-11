@@ -23,7 +23,7 @@ export default function ConteudoAula({ aula }) {
       {temVideo && <PlayerVideo videoId={aula.videoId} titulo={aula.titulo} />}
 
       <div className={temVideo ? 'mt-8' : ''}>
-        {temVideo && <h2 className="mb-3 text-lg font-semibold">Resumo</h2>}
+        {temVideo && <h2 className="mb-3 text-lg font-semibold">Conteúdo</h2>}
         <div className="prose prose-slate prose-a:text-primary prose-img:rounded-xl">
           <Markdown components={componentes}>{aula.conteudo}</Markdown>
         </div>

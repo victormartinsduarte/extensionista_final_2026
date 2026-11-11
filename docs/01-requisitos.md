@@ -7,8 +7,7 @@ avaliar a iniciativa. É a atividade extensionista do curso de Engenharia de
 Software da UNINTER.
 
 ## 2. Escopo
-**Dentro do escopo:** página inicial, página de aulas (vídeo + resumo) e
-página de pesquisa com Google Forms.
+**Dentro do escopo:** página inicial, página de aulas (vídeo + conteúdo) e página de pesquisa com Google Forms.
 **Fora do escopo:** cadastro/login, acompanhamento de progresso, exercícios
 corrigidos automaticamente, banco de dados e back-end próprio.
 
@@ -17,7 +16,6 @@ corrigidos automaticamente, banco de dados e back-end próprio.
 |---|---|
 | Visitante / aluno | Aprender programação de forma gratuita e simples |
 | Equipe do projeto | Manter o conteúdo e coletar dados da pesquisa |
-| Orientador / banca | Avaliar o trabalho |
 
 ## 4. Requisitos funcionais
 | ID | Requisito |

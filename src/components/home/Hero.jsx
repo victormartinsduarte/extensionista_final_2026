@@ -7,11 +7,11 @@ export default function Hero() {
         Atividade Extensionista
       </p>
       <h1 className="text-balance text-4xl font-bold tracking-tight sm:text-6xl">
-        Aprender a programar é para todos.
+        Aprender sobre tecnologia e programação deve ser para todos.
       </h1>
       <p className="mt-5 max-w-2xl text-lg text-slate-600 sm:text-xl">
         Aulas gratuitas, em linguagem simples, para quem está dando o primeiro
-        passo no mundo da programação.
+        passo no mundo da tecnologia.
       </p>
       <div className="mt-8 flex flex-wrap gap-3">
         <Botao to="/aulas">Começar a aprender</Botao>
