@@ -1,7 +1,7 @@
 # Documento de Requisitos
 
 ## 1. Contexto e objetivo
-O projeto **[Programação para Todos]** é um site com videoaulas introdutórias
+O projeto **[Tecnologia para Todos]** é um site com videoaulas introdutórias
 de programação, voltado a pessoas de baixa renda, e com uma pesquisa para
 avaliar a iniciativa. É a atividade extensionista do curso de Engenharia de
 Software da UNINTER.

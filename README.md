@@ -1,4 +1,4 @@
-# Programação para Todos
+# Tecnologia para Todos
 
 Site com videoaulas introdutórias de programação para pessoas de baixa renda,
 com uma pesquisa para avaliar a iniciativa. Trabalho de conclusão do curso de
